@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.left {
+    position: relative;
+    top: 50px;
+    left: 15px;
+    display: none;
+}
+
+.left img {
+    width: 94%;
+    height: auto;
+}
+
+.slides {
+    position: absolute;
+    top: 23px;
+    left: 146px;
+    width: 100%;
+    height: 100%;
+}
+
+.slides img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+}
+
+.right{
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+}
+.box{
+    border: 1px solid #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+}
+#boximg{
+    width: 175px;
+    margin-top: 30px;
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 20px;
+    width: 330px;
+}
+.form input{
+    padding: 10px;
+    background-color: #fafafa;
+    color: #262626;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    font-size: 12px;
+    width: 100%;
+    margin: 3px;
+    outline: none;
+}
+.input:focus{
+    border: 1px solid  #b2b2b2;
+}
+
+button{
+    padding: 8px;
+    background-color: #0095f6;
+    color: #ffff;
+    border: none;
+    border-radius: 8px;
+    opacity: .7;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.or{
+    display: flex;
+    margin: 15px 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sep{
+    height: 2px;
+    width: 105px;
+    background: #efefef;
+
+}
+.or span{
+    color: #999;
+    font-size: 12px;
+    font-weight: bold;
+}
+.facebook{
+    display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.facebook img{
+    width: 16px;
+    height: 16px;
+}
+.forgot{
+    font-size: 12px;
+    text-align: center;
+    margin: 20px;
+}
+.forgot a {
+    text-decoration: none;
+    color: #003569;
+    cursor: pointer;
+}
+.second{
+    margin-top: 20px;
+    padding: 20px 40px;
+
+}
+.second a {
+    text-decoration: none;
+    color: #0095f6;
+}
+
+.app{
+    text-align: center;
+    color: #262626;
+    margin-top: 15px;
+}
+.icons img{
+    width: 135px;
+    height: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+}
